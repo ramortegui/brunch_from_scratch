@@ -2,7 +2,7 @@
 
 1. clone repo
 2. npm install
-3. brunch compile
+3. brunch b
 
 
 ## Use
