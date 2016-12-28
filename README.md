@@ -3,7 +3,7 @@
 1. clone repo
 2. cd brunch_from_scratch
 3. npm install
-4. brunch b
+4. brunch watch
 
 
 ## Use
