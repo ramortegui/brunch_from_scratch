@@ -1,7 +1,8 @@
 "use strict";
+
 var App = {
   init: function ini(){
-    console.log('App initialized.');
+    $('body').append('App initialized.');
   }
 }
 
