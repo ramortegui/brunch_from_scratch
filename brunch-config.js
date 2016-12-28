@@ -1,7 +1,10 @@
 module.exports = {
   files: {
     javascripts: {
-      joinTo: 'app.js'
+      joinTo: {
+        'libraries.js': /^app[\\\/]jquery\.js/,
+        'app.js': /^(?!app[\\\/]jquery\.js)/
+      }
     },
     stylesheets: {
       joinTo: 'app.css'
