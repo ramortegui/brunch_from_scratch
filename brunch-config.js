@@ -2,8 +2,8 @@ module.exports = {
   files: {
     javascripts: {
       joinTo: {
-        'libraries.js': /^app[\\\/]jquery\.js/,
-        'app.js': /^(?!app[\\\/]jquery\.js)/
+        'libraries.js': /^(?!app\/)/,
+        'app.js': /^app\//
       }
     },
     stylesheets: {
