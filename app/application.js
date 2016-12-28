@@ -3,8 +3,11 @@
 var $ = require('jquery');
 
 var App = {
-  init: function ini(){
-    $('body').append('App initialized.');
+  items: ['Learn Brunch', 'Apply to my projects', '...','Profit'],
+  init: function(){
+    var tmpl = require('views/list');
+    var html = tmpl({ items: App.items });
+    $('body').append(html);
   }
 }
 

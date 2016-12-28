@@ -9,5 +9,9 @@ module.exports = {
     stylesheets: {
       joinTo: 'app.css'
     }
+  },
+  plugins:{
+
+    autoReload: { enabled: true }
   }
 };
